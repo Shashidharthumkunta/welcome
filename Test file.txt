@@ -2,3 +2,7 @@ one
 qlhd
 jqhwhbf
 jqhbf;
+fork
+git stash
+git cherrypick
+git rebase
