@@ -16,4 +16,16 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>LMIPL-082-releases</name>
+        <url>http://localhost:8081/artifactory/mynewrepo</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>LMIPL-082-snapshots</name>
+        <url>http://localhost:8081/artifactory/mynewrepo</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
